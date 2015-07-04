@@ -21,7 +21,8 @@ public class Calculator {
 		
 		while(nums.hasMoreTokens()){
 			
-			i == 0 ? -1 * Integer.parseInt(nums.nextToken()) : i - Integer.parseInt(nums.nextToken());
+			i == 0 ? i= (-1 * Integer.parseInt(nums.nextToken())) : i = (i - Integer.parseInt(nums.nextToken()));
+		
 		}
 		return i;
 	}
