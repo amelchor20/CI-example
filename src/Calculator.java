@@ -14,4 +14,14 @@ public class Calculator {
 		return i;
 	}
 
+	public int Sub(String numbers){
+		
+		int i = 0;
+		StringTokenizer nums = new StringTokenizer(numbers,",");
+		
+		while(nums.hasMoreTokens()){
+			i -= Integer.parseInt(nums.nextToken());
+		}
+		return i;
+	}
 }
