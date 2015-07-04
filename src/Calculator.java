@@ -1,4 +1,4 @@
-import java.util.String.*;
+import java.util.StringTokenizer;
 
 public class Calculator {
 
