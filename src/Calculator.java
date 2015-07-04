@@ -9,7 +9,7 @@ public class Calculator {
 		StringTokenizer nums = new StringTokenizer(numbers,",");
 		
 		while(nums.hasMoreTokens()){
-			i += Integer.parse(nums.nextToken());
+			i += Integer.Parse(nums.nextToken());
 		}
 		return i;
 	}
