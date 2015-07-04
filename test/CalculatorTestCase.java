@@ -27,5 +27,10 @@ public class CalculatorTestCase {
 		assertEquals(30,calc.Add(val));
 	}
 
-	
+	@Test
+	public void testOneValueSub(){
+		String val = "10,20";
+
+		assertEquals(-10,calc.Sub(val));
+	}
 }
